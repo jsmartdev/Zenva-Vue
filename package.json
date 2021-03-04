@@ -1,0 +1,22 @@
+{
+  "name": "zenva-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmartdev/Zenva-Vue.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsmartdev/Zenva-Vue.js/issues"
+  },
+  "homepage": "https://github.com/jsmartdev/Zenva-Vue.js#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}
