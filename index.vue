@@ -1,14 +1,13 @@
-let firstVue = new Vue ({
+let firstVue = new Vue({
     el: '#firstDiv',
     data: {
-        number: 1
+        number: 1,
+        numbers: [1, 2, 3]
+    }
+})    
+let secondVue = new Vue({
+    el: '#secondDiv',
+    data: {
+        isDoorOpen: true
     }
 })
-
-firstVue.number = 5
-
-firstVue.$watch('number', function() {
-    alert('number has changed')
-})
-
-firstVue.number = 10

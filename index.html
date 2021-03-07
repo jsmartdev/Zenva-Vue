@@ -8,6 +8,15 @@
     <body>
         <div id='firstDiv'>
             <p>number is: {{ number }}</p>
+            <ul>
+                <li v-for='number_ in numbers'>
+                    {{ number_}}
+                </li>
+            </ul>
+        </div>
+        <div id='secondDiv'>
+            <p v-if='isDoorOpen'>Open for business!</p>
+            <p v-else-if='!isDoorOpen'>Closed!</p>
         </div>
 
         <script src="index.vue"></script>
