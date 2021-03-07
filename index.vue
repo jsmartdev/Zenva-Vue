@@ -6,3 +6,9 @@ let firstVue = new Vue ({
 })
 
 firstVue.number = 5
+
+firstVue.$watch('number', function() {
+    alert('number has changed')
+})
+
+firstVue.number = 10
