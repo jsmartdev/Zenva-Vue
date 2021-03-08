@@ -15,6 +15,7 @@
             </ul>
         </div>
         <div id='secondDiv'>
+            <button v-on:click='openCloseDoor'>Open/Close Door</button>
             <p v-if='isDoorOpen'>Open for business!</p>
             <p v-else-if='!isDoorOpen'>Closed!</p>
         </div>
