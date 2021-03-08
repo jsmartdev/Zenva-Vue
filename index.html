@@ -21,6 +21,12 @@
             <p v-else-if='!isDoorOpen'>Closed!</p>
         </div>
 
+        <div id='thirdDiv'>
+            <ul>
+                <grocery-item v-for='item in groceryItems' v-bind:groceryitem='item'></grocery-item>
+            </ul>
+        </div>
+
         <script src="index.vue"></script>
     </body>
 </html>
